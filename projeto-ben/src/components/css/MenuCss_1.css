@@ -1,0 +1,20 @@
+.Menu{
+    
+    flex-direction: row;
+    background-color:#000;
+    border: 2px solid #fff;
+    border-radius: 5px; 
+    width:100%;
+    height:5em;
+    overflow: hidden;   
+}
+
+.Menu .Menu-2{
+    background-color: #000;
+    color: #fff;
+}
+
+.Menu .Menu-3{
+    background-color: #000;
+    color: #fff;
+}
