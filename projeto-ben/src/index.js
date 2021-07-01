@@ -4,9 +4,9 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 // importando primeiro componente dentro de componentes
-import Primeiro from './components/Primeiro'
+//import Primeiro from './components/Primeiro'
 // Importando componentes com parametros de
-import ComParametro from './components/ComParametro'
+//import ComParametro from './components/ComParametro'
 // importando componente Menu.jsx
 import Menu from './components/css/Menu'
 
@@ -16,12 +16,17 @@ ReactDOM.render(
     // precisa das <div> pra colocar mais de 1 elemento dentro
     <div>
         <Menu></Menu>
+        
+        {/*
+        
         <Primeiro></Primeiro>
 
         <ComParametro 
         titulo="TituloComParametro"
         Subtitulo="SubtituloComParametro">
         </ComParametro>
+
+        */}        
 
     </div>,    
     document.getElementById('root')
