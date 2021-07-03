@@ -1,20 +1,25 @@
 .Menu{
-    
-    flex-direction: row;
-    background-color:#000;
+       
+    background-color:rgb(0, 0, 0);
     border: 2px solid #fff;
     border-radius: 5px; 
     width:100%;
-    height:5em;
+    height:3em;
     overflow: hidden;   
 }
 
-.Menu .Menu-2{
+.Menu-2 .home{    
+    margin-top:center;
+    display: flex;
+    flex-direction: row;
+        
     background-color: #000;
     color: #fff;
 }
-
-.Menu .Menu-3{
+.Menu-2 .profile{    
+    display: flex;
+    flex-direction: row;
+        
     background-color: #000;
     color: #fff;
 }
