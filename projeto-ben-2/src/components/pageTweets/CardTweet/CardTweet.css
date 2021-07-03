@@ -1,0 +1,62 @@
+.cardtweet-css{
+    background-color:rgb(51, 51, 61);
+    border-radius: 8px;
+    border: 1px solid rgb(32, 29, 29);
+    box-shadow: 0 2px 7px 0 rgba(0,0,0);
+    display: flex;
+    padding:15px;
+    margin-bottom: 15px;    
+}
+
+/*Criando limite de tamanho para imagem*/
+.cardtweet-css_image{
+    margin-top: -200px;
+    max-width: 130px;
+    margin-left: 5px;
+    margin-bottom: 60px;
+}
+
+/* Config titulo */
+.cardtweet-css .cardtweet-css_titulo{
+    font-size: 15px;
+    color: rgb(61, 189, 240);
+    margin-top: -40px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+/*  config nome data */
+.cardtweet-css_nome-data{
+    padding: 0 0 0 40px;
+    margin-left: 600px;
+    color:aliceblue;
+    font-size: 12px;
+}
+
+/* Config comentarios */
+.cardtweet-css_comentario{
+    font-size: 14px;
+    font-weight:400;
+    color:aqua;
+    display: flex;
+    margin-left:150px;
+    margin-bottom: 5px;
+    margin-top:-150px;
+    align-items: center;
+}
+
+/* config contador */
+.contador{
+    margin-left: 170px;  
+    color:aqua;  
+}
+
+/* config botao */
+.botao{
+    border: 1px solid rgb(68, 110, 226);
+    border-radius:3px;
+    margin-top: 100px;
+    width: 60px;
+    height: 20px;
+    color:aqua; 
+}
+
