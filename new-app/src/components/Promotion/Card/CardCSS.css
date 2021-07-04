@@ -1,0 +1,49 @@
+.promotion-card{ 
+    border-radius:8px;
+    border:1px solid rgb(192, 186, 186);
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+    display:flex;
+    padding:15px;
+    align-items:center;
+}
+
+.promotion-card_image{ 
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.promotion-card_title{
+    font-size: 16px;
+    color: rgb(6, 31, 102);
+}
+
+.promotion-card_price{
+    font-size: 26px;
+    font-weight: 700;
+    color:rgb(21, 83, 255);
+}
+
+.promotion-card_footer{
+    display: flex;
+    align-items: center;
+}
+
+.promotion-card_comment{
+    color: rgb(61, 53, 53);
+    font-weight: 700;
+    margin-right: 250px;
+}
+
+.promotion-card_comments-count{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.promotion-card_link{
+    border: 1px solid rgb(17, 116, 245);
+    border-radius: 4px;
+    color: rgb(12, 17, 32);
+    /* tira o sublinhado do link*/
+    text-decoration: none;
+    padding:8px 10px;
+}
