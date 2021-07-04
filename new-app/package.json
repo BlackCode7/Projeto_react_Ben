@@ -1,9 +1,8 @@
 {
-  "name": "projeto-ben-2",
+  "name": "new-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.1.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -36,9 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-import": "^2.23.4"
   }
 }

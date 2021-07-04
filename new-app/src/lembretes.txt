@@ -1,0 +1,4 @@
+>>> OBS >>> 
+
+Para instalar o react-router-dom é preciso usar o comandos
+'yarn add react-router-dom' -- ai funciona
